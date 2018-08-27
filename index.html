@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>timeline(container1)</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    
+      <!-- Seu código vai aqui!! -->
+    <div class="container">
+      <ul class="list-unstyled">
+        <li class="">nome de usuario</li>
+        <li class=""><img src="img/feed.png">
+           Feed de Notícias   ...</li>
+        <li class=""><img src="img/messenger.png">
+           Messenger</li>
+        <li class=""><img src="img/mark.png">
+           Marketplace</li>
+      </ul>  
+      <p>Atalhos</p>
+      <ul class="list-unstyled">
+        <li class=""><img src="img/familia.png">
+            Familiares</li>
+        <li class=""><img src="img/jogos.png">
+            Jogos</li>
+        <li class=""><img src="img/calendario.png">
+            Calendario</li>
+      </ul> 
+      <p>Explorar</p>
+      <ul class="list-unstyled">
+        <li class=""><img src="img/eventos.png">
+            Eventos</li>
+        <li class=""><img src="img/grupos.png">
+            Grupos</li>
+        <li class=""><img src="img/paginas.png">
+            Paginas</li>
+        <li class=""><img src="img/amigos.png">
+            Listas de amigos</li>
+        <li class=""><img src="img/lembranças.png">
+            Lembranças</li>
+      </ul>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!-- Não mexa daqui para baixo!!! -->
+    <script src="./assets/js/vendor/jquery-slim.min.js"></script>
+    <script src="./assets/js/vendor/popper.min.js"></script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/vendor/holder.min.js"></script>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
+  </body>
+</html>
