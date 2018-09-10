@@ -14,62 +14,63 @@
 </head>
 
 <body >
-  <nav class="navbar navbar form-row" style="background: #3b5998;" >
+  <nav class="navbar navbar form-" style="background: #3b5998;" >
     <div class="container">
       <a class="navbar-brand" href="#"><h1>Facebook</h1></a>
       <div class="col-5">
-        <form>
-          <div class=" col">
-            <label for="exampleInputEmail1">Email ou telefone</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
-          </div>
-        </div>
-        <div class=" col">
-          <label for="exampleInputPassword1">Senha</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
-        </div>
-        <div class="col"><button type="button" class="btn btn-danger">Danger</button> </div>
-      </div>
-    </div>
-  </nav>
-  <div class="mt-5"  style="background:#dfe1ee;" >
-    <div class="" > 
-      <div class="form-row"> 
-        <div class="col-6">
-          <div class="col-4">
-            <img src="img/print.png">
-          </div>
-        </div>
-        <form>
-         <div class="col-6">
-          <div class="container">
-            <div class="col">
-              <h2>Abra uma conta</h2>  
-              <h5>É gratuito e sempre será</h5>
-              <div class="row">
-                <div class="col-4">
-                  <input type="text" class="form-control" placeholder="Nome">
-                </div>
-                <div class="col-4">
-                  <input type="text" class="form-control" placeholder="Sobrenome">
-                </div> 
-              </div>
-              <div>
-
-              </div>
-              <label for="inputPassword3" class="col-sm-2 col-form-label"></label>
-              <div class="col-4">
-                <input type="password" class="form-control" id="inputPassword3" placeholder="Celular ou email">
-              </div>
-              <label for="inputPassword3" class="col-sm-2 col-form-label"></label>
-              <div class="col-4" >
-                <input type="password" class="form-control" id="inputPassword3" placeholder="Nova Senha">
+        <form class="form-inline">
+            <div class="">
+              <label for="email ou elefone"  style=" color: white; font-size: 14px;"> email ou elefone </label>
+              <input type="email " >
+            </div>
+            <div class="">
+              <label for="email ou elefone"  style=" color: white; font-size: 14px;"> Senha </label>
+              <input type="password">
+              <div class="col">
+                <a href=" " class="m-5"  style=" color: #2E64FE; font-size: 14px;" >Esqueceu a cona</a>
               </div>
             </div>
-            <div class="container mb-2">
-              <h5>Data de nascimento</h5>
+            <button type="button" class="bn bn link" id=" usuario"  style="background-color:  #3b5998; color: white;"> <a href="">Entrar</a></button>
+           </form>   
+
+  </nav>
+
+ <form>
+
+  <div class="mt-5"  style="background:#dfe1ee;" >
+    <div class="form-row"> 
+
+      <div class="col-2"></div>
+      <div class="col">
+        <img src="img/print.png">
+      </div>
+
+     
+       <div class="col-6">
+        <div class="container">
+          <div class="col">
+            <h2>Abra uma conta</h2>  
+            <h5>É gratuito e sempre será</h5>
+            <div class="row">
+              <div class="col-4">
+                <input type="text" class="form-control mt-3" placeholder="Nome">
+              </div>
+              <div class="col-4">
+                <input type="text" class="form-control mt-3" placeholder="Sobrenome">
+              </div>               
+              <label for="inputPassword3" class="col-sm-2 col-form-label "></label>
+              <div class="col-4">
+                <input type="password" class="form-control mt-2" id="inputPassword3" placeholder="Celular ou email">
+              </div>
+              <label for="inputPassword3" class="col-sm-2 col-form-label "></label>
+              <div class="col-4" >
+                <input type="password" class="form-control mt-2" id="inputPassword3" placeholder="Nova Senha">
+              </div>
+            </div>
+            <div class="container mt-3">
+              <h5 class="mt-2">Data de nascimento</h5>
               <div class="form-row">
-                <div class="input-group mb-3 col-1">
+                <div class="input-group mt-2 col-1">
                   <select class="custom-select" id="inputGroupSelect02">
                     <option selected>1</option>
                     <option value="1">2</option>
@@ -77,7 +78,7 @@
                     <option value="3">4</option>
                   </select>
                 </div>
-                <div class="input-group  col-2">
+                <div class="input-group mt-2 col-2">
                   <select class="custom-select" id="inputGroupSelect02">
                     <option selected>Janeiro</option>
                     <option value="1">Fevereiro</option>
@@ -85,7 +86,7 @@
                     <option value="3">Abril</option>
                   </select>
                 </div>
-                <div class="input-group   col-2">
+                <div class="input-group mt-2 col-2">
                   <select class="custom-select" id="inputGroupSelect02">
                     <option selected>1993</option>
                     <option value="1">1994</option>
@@ -94,53 +95,94 @@
                   </select>
                 </div>
                 <div class="container">
-                  <div class="col mb-2" >
+                  <div class="col mt-2" >
                     <div class=" custom-control custom-radio custom-control-inline">
-                      <input type="radio" id="radio3" name="radioDisabled" id="customRadioDisabled" class="custom-control-input" disabled>
+                      <input type="radio" id="radio3" name="radioDisabled" id="customRadioDisabled" class="custom-control-input mt-2" disabled>
                       <label class="custom-control-label" for="customRadioDisabled">Feminino</label>
                     </div>
                     <div class="custom-control custom-radio custom-control-inline">
-                      <input type="radio" id="radio3" name="radioDisabled" id="customRadioDisabled" class="custom-control-input" disabled>
+                      <input type="radio" id="radio3" name="radioDisabled" id="customRadioDisabled" class="custom-control-input mt-2" disabled>
                       <label class="custom-control-label" for="customRadioDisabled">Masculino</label>
                     </div>
                   </div>
-                  <p><span style="color: gray">
+                  <p class="mt-2"><span style="color: gray">
                     Ao clicar em Inscreva-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.
                   </span> </p>
                   <div class="container">
-                    <a href="" class="btn btn-success" role="button" aria-pressed="true">Inscrever-se</a>
+                    <a href="" class="btn btn-success m-3" role="button" aria-pressed="true">Inscrever-se</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-         </div>
-</form>
-<div class="container">
+      </div>     
+    </div>
+ </form>
+
+</div> 
+<div class="container mt-5" style="background:;" >  
   <div class="row">
     <div class="col">
-     <span style="color: blue">Portugues(Brasil)</span>
-    </div>
-    <div class="col">
-      <span style="color: blue">Japao</span>
-    </div>
-    <div class="col">
-      <span style="color: blue">English</span>
-    </div>
-    <div class="col">
-      <span style="color: blue">França</span>
-    </div>
-    <div class="col">
-     <span style="color: blue">Italiano</span>
-    </div>
-    <div class="col">
-     <span style="color: blue">Espanhol</span>
-    </div>
+     <span style="color: #3b5998">Portugues(Brasil)</span>
+   </div>
+   <div class="col">
+    <span style="color: #3b5998">Japao</span>
   </div>
+  <div class="col">
+    <span style="color: #3b5998">English</span>
+  </div>
+  <div class="col">
+    <span style="color:#3b5998">França</span>
+  </div>
+  <div class="col">
+   <span style="color:#3b5998">Italiano</span>
+ </div>
+ <div class="col">
+   <span style="color: #3b5998">Espanhol</span>
+ </div>
 </div>
-      
-   
+<hr>  
+<div class="row"> 
+  <div class="col"> 
+
+    <span style="color: #3b5998">Entrar</span>
+  </div>
+  <div class="col">
+    <span style="color: #3b5998">Inscrever</span>
+  </div>
+  <div class="col">
+    <span style="color: #3b5998">Messeger</span>
+  </div>
+  <div class="col">
+    <span style="color: #3b5998">Facebook Lite</span>
+  </div>
+  <div class="col">
+   <span style="color: #3b5998">Celular</span>
+ </div>
+ <div class="col">
+   <span style="color: #3b5998"> amigos</span>
+ </div>
+ <div class="col">
+  <span style="color: #3b5998">Pessoas</span>
+</div>
+<div class="col">
+  <span style="color: #3b5998">Paginas</span>
+</div>
+<div class="col">
+  <span style="color: #3b5998">Videos</span>
+</div>
+<div class="col">
+ <span style="color: #3b5998">Lugares</span>
+</div>
+<div class="col">
+ <span style="color: #3b5998">Jogos</span>
+</div>
+
+</div>
+</div> 
+</div>
+</div>
 
 
 
@@ -153,12 +195,15 @@
 
 
 
-    <!-- Não mexa daqui para baixo!!! -->
-    <script src="./assets/js/vendor/jquery-slim.min.js"></script>
-    <script src="./assets/js/vendor/popper.min.js"></script>
-    <script src="./dist/js/bootstrap.min.js"></script>
-    <script src="./assets/js/vendor/holder.min.js"></script>
-    <script>
+
+
+
+<!-- Não mexa daqui para baixo!!! -->
+<script src="./assets/js/vendor/jquery-slim.min.js"></script>
+<script src="./assets/js/vendor/popper.min.js"></script>
+<script src="./dist/js/bootstrap.min.js"></script>
+<script src="./assets/js/vendor/holder.min.js"></script>
+<script>
       // Example starter JavaScript for disabling form submissions if there are invalid fields
       (function() {
         'use strict';
