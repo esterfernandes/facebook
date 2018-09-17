@@ -2,3 +2,7 @@
 {
 	color: blue;
 }
+#fundo{
+	background: url(rsrc.php/v3/yb/r/wAHgQi2ZPB.png) 0 bottom repeat-x ;
+	background: linear-gradient(white, #D3D8EB);
+}
