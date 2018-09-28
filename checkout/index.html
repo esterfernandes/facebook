@@ -6,183 +6,188 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Bootstrap Form</title>
+  <title>Facebook - entre ou cadastre-se</title>
 
   <!-- Bootstrap core CSS -->
   <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="csspag1..css" rel="stylesheet">
-</head>
+  <link href="csspag1.css" type="text/css" rel="stylesheet">
+</head> 
 
 <body >
   <nav class="navbar navbar form-" style="background: #3b5998;" >
     <div class="container">
-      <a class="navbar-brand" href="#"><h1>Facebook</h1></a>
-      <div class="col-5">
-        <form class="form-inline">
-          <div class="col">
-            <label for="email ou elefone"  style=" color: white; font-size: 14px;"> Email ou Telefone </label>
+      <a class="navbar-brand" style="color: white" href="#">
+        <h1>Facebook</h1> 
+      </a>
+      <div class="col-6">
+
+        <form>
+          <div class="row">
+            <div class="col-5">
+             <label for="email ou elefone"  style=" color: white; font-size: 14px;"> Email ou Telefone </label>
             <input type="email " >
-          </div>
-          <div class="col">
-            <label for="email ou elefone"  style=" color: white; font-size: 14px;"> Senha </label>
+            </div>
+            <div class="col-5">
+              <label for="email ou elefone"  style=" color: white; font-size: 14px;"> Senha </label>
             <input type="password">
+            </div>
+            
+            <div class="col-2 mt-4">
+             <button type="button" class="btn botao_navbar" id=" usuario"> 
+                <a href="file:///I:/DSW/facebook/face/index.html" class="text-white">Entrar</a>
+             </button>
+            </div>
+         
           </div>
-          <div class="col">
+           <div class="col">
             <a href=" " class=""  style=" color: #2E64FE; font-size: 14px;" >Esqueceu a conta?</a>
           </div>
-          <div class="col">
-           <button type="button" class="bn bn link " id=" usuario"  style="background-color:  #3b5998; color: white;" > 
-            <a href="">Entrar</a></button>
-          </div>
-        </form>   
+        </form> 
+
       </div>
+
     </div>
+
   </nav>
 
   <div class="row"  id="fundo" style="background:#EFF2FB;" >
 
-  
-
-    
-      <div class="col-5">
-        <h4>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h4> 
-        <img src="img/print3.png">
-      </div>
 
 
-      <div class="col-7">
-        <div class="container mt-5">
-          <div class="col">
-            <h2>Abra uma conta</h2>  
-            <h5>É gratuito e sempre será</h5>
-            <div class="row">
-              <div class="col-4">
-                <input type="text" class="form-control mt-3" placeholder="Nome">
-              </div>
-              <div class="col-4">
-                <input type="text" class="form-control mt-3" placeholder="Sobrenome">
-              </div>               
-              <label for="inputPassword3" class="col-sm-2 col-form-label "></label>
-            </div>
-              <div class="col-12">
-                <input type="password" class="form-control mt-2" id="inputPassword " placeholder="Celular ou email"> 
-              </div>
-              <label for="inputPassword" class="col-sm-2 col-form-label"></label>
 
-              <div class="col-4">
-                <input type="password" class="form-control mt-2" id="novasenha " placeholder="Nova Senha"> 
-              </div>
-              <label for="novasenha" class="col-sm-2 col-form-label"></label>
-
-              
-<div class="container mt-3">
-    <h5 class="mt-2">Data de nascimento</h5>
-    <div class="form-row">
-      <div class="input-group mt-2 col-1">
-        <select class="custom-select" id="inputGroupSelect02">
-         <option value="1">1</option>
-         <option value="2">2</option>
-         <option value="3">3</option>
-         <option value="4">4</option>
-         <option value="5">5</option>
-         <option value="6">6</option>
-         <option value="7">7</option>
-         <option value="8">8</option>
-         <option value="9">9</option>
-         <option value="10">10</option>
-         <option value="11">11</option>
-         <option value="12">12</option>
-         <option value="13">13</option>
-         <option value="14">14</option>
-         <option value="15">15</option>
-         <option value="16">16</option>
-         <option value="17">17</option>
-         <option value="18">18</option>
-         <option value="19">19</option>
-         <option value="20">20</option>
-         <option value="21">21</option>
-         <option value="22">22</option>
-         <option value="23">23</option>
-         <option value="24">24</option>
-         <option value="25">25</option>
-         <option value="26">26</option>
-         <option value="27">27</option>
-         <option value="28">28</option>
-         <option value="29">29</option>
-         <option value="30">30</option>
-         <option value="31">31</option>
-       </select>
-     </div>
-     <div class="input-group mt-2 col-2">
-      <select class="custom-select" id="inputGroupSelect02">
-        <option value="1">janeiro</option>
-        <option value="2">fevereiro</option>
-        <option value="3">março</option>
-        <option value="4">abril</option>
-        <option value="5">maio</option>
-        <option value="6">junho</option>
-        <option value="7">julho</option>
-        <option value="8">agosto</option>
-        <option value="9">setembro</option>
-        <option value="10">outubro</option>
-        <option value="11">novembro</option>
-        <option value="12">dezembro</option>
-      </select>
+    <div id="img" class="col-5 mt-5" >
+      <h4 id="escrita">O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h4> 
+      <img src="img/imagem.png">
     </div>
-    <div class="input-group mt-2 col-2">
-      <select class="custom-select" id="inputGroupSelect02">
-        <option selected>1993</option>
-        <option value="1">1994</option>
-        <option value="2">1995</option>
-        <option value="3">1996</option>
-        <option value="2013">2013</option>
-        <option value="2012">2012</option>
-        <option value="2011">2011</option>
-        <option value="2010">2010</option>
-        <option value="2009">2009</option>
-        <option value="2008">2008</option>
-        <option value="2007">2007</option>
-        <option value="2006">2006</option>
-      </select>
+
+
+    <div id="ladoe" class="col-6">
+      <div class="container mt-5">
+        <div class="col">
+          <h2>Abra uma conta</h2>  
+          <h5>É gratuito e sempre será</h5>
+          <div class="row">
+            <div class="col-4">
+              <input type="text" class="form-control mt-3" placeholder="Nome">
+            </div>
+            <div class="col-4">
+              <input type="text" class="form-control mt-3" placeholder="Sobrenome">
+            </div>               
+            <label for="inputPassword3" class="col-sm-2 col-form-label "></label>
+          
+          <div class="col-8">
+            <input type="password" class="form-control mt-2" id="inputPassword " placeholder="Celular ou email"> 
+          </div>
+          <label for="inputPassword" class="col-sm-2 col-form-label"></label>
+      
+          <div class="col-8">
+            <input type="password" class="form-control mt-2" id="novasenha " placeholder="Nova Senha"> 
+          </div>
+          </div>
+          <label for="novasenha" class="col-sm-2 col-form-label"></label>
+
+
+          <div class=" mt-2">
+            <h5 class="mt-2">Data de nascimento</h5>
+            <div class="form-row">
+              <div class="input-group mt-2 col-1">
+                <select class="custom-select" id="inputGroupSelect02">
+                 <option value="1">1</option>
+                 <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+                 <option value="5">5</option>
+                 <option value="6">6</option>
+                 <option value="7">7</option>
+                 <option value="8">8</option>
+                 <option value="9">9</option>
+                 <option value="10">10</option>
+                 <option value="11">11</option>
+                 <option value="12">12</option>
+                 <option value="13">13</option>
+                 <option value="14">14</option>
+                 <option value="15">15</option>
+                 <option value="16">16</option>
+                 <option value="17">17</option>
+                 <option value="18">18</option>
+                 <option value="19">19</option>
+                 <option value="20">20</option>
+                 <option value="21">21</option>
+                 <option value="22">22</option>
+                 <option value="23">23</option>
+                 <option value="24">24</option>
+                 <option value="25">25</option>
+                 <option value="26">26</option>
+                 <option value="27">27</option>
+                 <option value="28">28</option>
+                 <option value="29">29</option>
+                 <option value="30">30</option>
+                 <option value="31">31</option>
+               </select>
+             </div>
+             <div class="input-group mt-2 col-2">
+              <select class="custom-select" id="inputGroupSelect02">
+                <option value="1">janeiro</option>
+                <option value="2">fevereiro</option>
+                <option value="3">março</option>
+                <option value="4">abril</option>
+                <option value="5">maio</option>
+                <option value="6">junho</option>
+                <option value="7">julho</option>
+                <option value="8">agosto</option>
+                <option value="9">setembro</option>
+                <option value="10">outubro</option>
+                <option value="11">novembro</option>
+                <option value="12">dezembro</option>
+              </select>
+            </div>
+            <div class="input-group mt-2 col-2">
+              <select class="custom-select" id="inputGroupSelect02">
+                <option selected>1993</option>
+                <option value="1">1994</option>
+                <option value="2">1995</option>
+                <option value="3">1996</option>
+                <option value="2013">2013</option>
+                <option value="2012">2012</option>
+                <option value="2011">2011</option>
+                <option value="2010">2010</option>
+                <option value="2009">2009</option>
+                <option value="2008">2008</option>
+                <option value="2007">2007</option>
+                <option value="2006">2006</option>
+              </select>
+            </div>
+          </div>
+        </div>
+
+
+ <div class="">
+<div class="custom-control custom-radio custom-control-inline mt-2">
+  <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline1">Feminino</label>
+</div>
+<div class="custom-control custom-radio custom-control-inline mt-2">
+  <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+  <label class="custom-control-label" for="customRadioInline2">Masculino</label>
+</div>
+
+       
+          
+          <p class="mt-2 col-8">
+            <span style="color: gray">
+            Ao clicar em Inscreva-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.
+            </span> 
+          </p>
+          <div class="">
+            <a href="file:///I:/DSW/facebook/face/index.html" class="btn btn-success m-3" role="button" aria-pressed="true">Inscrever-se</a>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
 
-  <div class="container">
-    <div class="col mt-2" >
-      <div class=" custom-control custom-radio custom-control-inline">
-        <input type="radio" id="radio3" name="radioDisabled" id="customRadioDisabled" class="custom-control-input mt-2" disabled>
-        <label class="custom-control-label" for="customRadioDisabled">Feminino</label>
-      </div>
-      <div class="custom-control custom-radio custom-control-inline">
-        <input type="radio" id="radio3" name="radioDisabled" id="customRadioDisabled" class="custom-control-input mt-2" disabled>
-        <label class="custom-control-label" for="customRadioDisabled">Masculino</label>
-      </div>
-    </div>
-    <p class="mt-2"><span style="color: gray">
-      Ao clicar em Inscreva-se, você concorda com nossos Termos, Política de Dados e Política de Cookies. Você pode receber notificações por SMS e pode cancelar isso quando quiser.
-    </span> </p>
-    <div class="container">
-      <a href="" class="btn btn-success m-3" role="button" aria-pressed="true">Inscrever-se</a>
-    </div>
-  </div>
-
-
-
-
-            </div>
-          </div>
-        </div>
-      </div>
-
-  </div>
-
-  
-
-
-
-</div> 
 <div class="container mt-5" style="background:;" >  
   <div class="row">
     <div class="col">
@@ -203,6 +208,27 @@
  <div class="col">
    <span style="color: #3b5998">Espanhol</span>
  </div>
+<div class="col">
+    <span style="color:#3b5998">Latim</span>
+</div>
+<div class="col">
+    <span style="color:#3b5998">Grego</span>
+</div>
+<div class="col">
+    <span style="color:#3b5998">Hindi</span>
+  </div>
+<div class="col">
+    <span style="color:#3b5998">Malaio</span>
+  </div>
+<div class="col">
+    <span style="color:#3b5998">Bêngales</span>
+  </div>
+  <div class="col">
+    <span style="color:#3b5998">Arabe</span>
+  </div>
+
+
+
 </div>
 <hr>  
 <div class="row"> 
@@ -215,9 +241,6 @@
   </div>
   <div class="col">
     <span style="color: #3b5998">Messeger</span>
-  </div>
-  <div class="col">
-    <span style="color: #3b5998">Facebook Lite</span>
   </div>
   <div class="col">
    <span style="color: #3b5998">Celular</span>
@@ -240,21 +263,27 @@
 <div class="col">
  <span style="color: #3b5998">Jogos</span>
 </div>
+<div class="col">
+ <span style="color: #3b5998">Privacidade</span>
+</div>
+<div class="col">
+ <span style="color: #3b5998">Termos</span>
+</div>
+<div class="col">
+ <span style="color: #3b5998">Ajuda</span>
+</div>
+
+
+
+
+
+
+
 
 </div>
 </div> 
-</div>
-</div>
 
-
-
-
-
-
-
-
-
-
+</body>
 
 
 
