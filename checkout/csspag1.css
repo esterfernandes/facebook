@@ -3,6 +3,19 @@
 	color: blue;
 }
 #fundo{
-	background: url(rsrc.php/v3/yb/r/wAHgQi2ZPB.png) 0 bottom repeat-x ;
-	background: linear-gradient(white, #D3D8EB);
+	background: url(/rsrc.php/v3/yB/r/TwAHgQi2ZPB.png) 0 bottom repeat-x;
+    background: linear-gradient(white, #D3D8E8);
+}
+#img{
+	padding-left: 200px;
+}
+.botao_navbar{
+	background-color: #f5f6f7;
+    border: 1px solid #ccd0d5;
+    background-color: #4267b2;
+    border-color: #29487d;
+}
+
+#ladoe{
+	padding-left: 150px;
 }
